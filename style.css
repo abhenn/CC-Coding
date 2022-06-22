@@ -1,0 +1,87 @@
+/**Font Styles**/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Roboto:wght@500&display=swap');
+
+/*CSS Colors*/
+.lightGray{
+  background-color: #ebebeb;
+}
+.darkGray {
+  background-color: #707070;
+}
+.blue {
+  background-color: #01a49c;
+}
+.midBlue {
+  background-color: #1450d2;
+}
+.darkBlue {
+  background-color: #001254;
+}
+.darkTeal {
+  background-color: #01a49c;
+}
+.white {
+  background-color: white;
+}
+.black {
+  color: black;
+}
+/*End Colors*/
+
+
+
+/*Core CSS*/
+*, *:before, *:after {
+  /* Chrome 9-, Safari 5-, iOS 4.2-, Android 3-, Blackberry 7- */
+  -webkit-box-sizing: border-box;
+
+  /* Firefox (desktop or Android) 28- */
+  -moz-box-sizing: border-box;
+
+  /* Firefox 29+, IE 8+, Chrome 10+, Safari 5.1+, Opera 9.5+, iOS 5+, Opera Mini Anything, Blackberry 10+, Android 4+ */
+  box-sizing: border-box;
+}
+html {
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+  /* background: #ebebeb; */
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 100%;
+	/* background-color: pink; */
+  margin: 0 auto;
+	overflow-x: hidden;
+  background: url(images/acme-home-nav-bg.png) repeat-x top;
+}
+h1{}
+
+h2 {}
+
+h3 {}
+
+h4 {}
+
+h5 {}
+
+h6 {}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+p .font-a {
+  font: 'Inter', sans-serif;
+}
+p .font-b {
+  font: 'Roboto', sans-serif;
+}
+
+ul, li, ol {
+  list-style: none;
+  text-decoration: none;
+}
+
+.wrapper {
+
+}
